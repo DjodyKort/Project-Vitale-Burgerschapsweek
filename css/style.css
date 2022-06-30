@@ -1,0 +1,86 @@
+/* ========== Importing Fonts ========== */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/* ========== Styling ========== */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+html, body{
+    /* Fonting */
+    font-family: 'Lato', sans-serif;
+    /* Coloring */
+    background-color: whitesmoke;
+}
+h1{
+    /* Positioning */
+    text-align: center;
+}
+nav {
+    position: absolute;
+}
+
+a img {
+    height: 75px;
+}
+nav img {
+    /* Positioning */
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-right: 10px;
+    margin-top: 10px;
+    /* Sizing */
+    height: auto;
+}
+.navbar-arrow-right {
+    /* Positioning */
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+nav a {
+    /* Coloring */
+    color: white;
+    line-break: anywhere;
+    text-decoration: none;
+}
+nav button {
+    /* Positioning */
+    display: block;
+    margin-bottom: 20px;
+
+    /* Sizing */
+    width: 400px;
+    height: 50px;
+
+    /* Coloring */
+    background-color: #868585;
+    color: white;
+    /* Styling */
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    /* Fonting */
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
+.homepage-intro {
+    /* Positioning */
+    margin-left: 26vw;
+    margin-top: 3vh;
+}
+.homepage-intro img {
+    /* Sizing */
+    height: 250px;
+    /* Positioning */
+    display: block;
+    margin-left: 9%;
+    margin-right: auto;
+}
