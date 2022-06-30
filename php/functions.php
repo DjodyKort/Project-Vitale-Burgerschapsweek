@@ -152,7 +152,11 @@ function MainPage($language)
                 <br/>
                 All of these workshops and activities were needed for me to get my last grade of this semester.<br/>
                 <br/>
-                I hope you enjoy this website!
+                I hope you enjoy this website!<br/>
+                <br/>
+                <br/>
+                Made by: Djody Kort
+                
             </p>
             <img src='../images/civic.jpg' alt='Error: Look for civic.jpg'>
         </div>
@@ -169,7 +173,10 @@ function MainPage($language)
                 <br/>
                 Alle workshops en activiteiten zijn benodigd voor mij om mijn laatste cijfer van dit semester te behalen.<br/>
                 <br/>
-                Hopelijk geniet je van de website!
+                Hopelijk geniet je van de website!<br/>
+                <br/>
+                <br/>
+                Gemaakt door: Djody Kort
             </p>
             <img src='../images/civic.jpg' alt='Error: Look for civic.jpg'>
         </div>
@@ -317,17 +324,68 @@ function ActivityContent($language, $pagenumber) {
                     break;
                 case 4:
                     echo("
-                    
+                        <div class='activity-content center'>
+                            <p>
+                                This workshop was about the care, privacy and medication of a person. How to stay healthy and how to take care of yourself etc.<br/>
+                                <br/>
+                                Many people are aware about taking good health but many do not know what is happening behind the scene when it comes to their own health or that of their loved ones who are also living with them in this world.<br/>
+                                <br/>
+                                This workshop provides information on various aspects related to personal hygiene, dietetics, preventive medicine including vaccinations etc.<br/>
+                                <br/>
+                                The workshop aimed to provide knowledge about how to keep oneself healthy and how to take care of their privacy while taking medications.<br/>
+                                The content was divided into three parts namely- first part was on how to stay healthy, second part was on how to take care of oneself and the third part was on tips for staying private while taking medication.<br/>
+                                <br/>
+                                The first part of the workshop was about staying healthy. It covered topics such as nutrition, physical activity and sleep.<br/>
+                                <br/>
+                                Each of the discussed topics was explained in detail and it was made clear that being healthy not only makes you look good but also makes you feel good. It was also made clear that by following the tips given in this section, one can not only stay healthy but also extend their life by a significant amount.<br/>
+                                <br/>
+                                The second part of the workshop was about taking care of oneself. It discussed topics such as managing stress, coping with fatigue and staying healthy emotionally.<br/>
+                                <br/>
+                                Again, each of the discussed topics was explained in detail and it was made clear that by following the tips given in this section, one can not only stay healthy but also manage their workload in a better way.<br/>
+                                The third and final part of the workshop was all about tips for staying private while taking medication.<br/>
+                                <br/>
+                                It covered topics such as knowing when to seek help and when to stay anonymous.<br/>
+                                Each of the discussed topics was explained in detail and it was made clear that by following the tips given in this section, one can stay private while taking medication and moreover, that they can have a great experience while taking the medications.<br/>
+                                <br/>
+                                The workshop was very informative and it provided a lot of valuable information about how to stay healthy and take care of oneself. By following the tips given in this section, one can not only stay healthy but also have a great experience while taking medication.
+                            </p>    
+                        </div>
                     ");
                     break;
                 case 5:
                     echo("
-                    
+                    <div class='activity-content center'>
+                        <p>
+                            The next and second to last workshop was about Contraception.<br/>
+                            <br/>
+                            In this workshop it was mainly explained what types of contraception methods there are<br/>
+                            such as: The contraceptive pill, The contraceptive patch, The contraceptive ring, The contraceptive injection and many more different ones.<br/>
+                            <br/>
+                            There are also a few other methods such as the Norplant implant, condoms and many other methods used to prevent pregnancy but<br/>
+                            are not contraceptive methods themselves<br/>
+                            There was 1 speaker at this workshop, this should be a teacher from our school although I am not sure.<br/>
+                            <br/>
+                            It was really interesting and fun to learn so much about them all because it's always nice to know things like this when you have to worry about your own life.
+                        </p>
+                    </div>
                     ");
                     break;
                 case 6:
                     echo("
-                    
+                        <div class='activity-content center'>
+                            <p>
+                                The last activity of this week was a soccer penalty tournament.<br/>
+                                <br/>
+                                This was especially fun since we mostly had our own class and we all knew each other already<br/>
+                                The only thing I really regret is that I accidentally hit Don (the goalkeeper) 2 or 3 times.<br/>
+                                <br/>
+                                This is purely because I'm just awful at shooting the ball and not being accurate at all.<br/>
+                                <br/>
+                                It was also a really nice tour, and I had a lot of fun
+                            </p>
+                            <img src='../../../images/don-1.jpg' width='250px' alt='penalty' class='activity-image'/>
+                            <img src='../../../images/don-2.jpg' width='250px' alt='penalty' class='activity-image'/>
+                        </div>
                     ");
                     break;
             }
@@ -346,7 +404,7 @@ function ActivityContent($language, $pagenumber) {
                                 De tweede keer dat we de trap op gingen was er een wedstrijd. De eerste die bovenaan stond mocht kiezen<br/>
                                 een prijs. Dit was een kleine prijs tussen de € 5 en 20 euro.<br/>
                                 <br/>
-                                Ik heb echt gewonnen!
+                                Ik had toen gewonnen!
                             </p>             
                             <img src='../../../images/stairs-1.jpg' width='350px'>
                             <img src='../../../images/stairs-2.jpg' width='350px'>
@@ -363,10 +421,10 @@ function ActivityContent($language, $pagenumber) {
                     echo("
                         <div class='activity-content center'>
                             <p>
-                                De tweede activiteit die we deze week deden was een heel voetbalevenement/toernooi in De Joffer.<br/>
+                                De tweede activiteit die we deze week deden was een voetbalevenement/toernooi in De Joffer.<br/>
                                 <br/>
-                                Dit evenement was vrij simpel. De hosts van het evenement maakten de teams en we moesten gewoon spelen<br/>
-                                en we moesten de andere teams verslaan. Het evenement was behoorlijk intens en we moesten voorzichtig zijn<br/>
+                                Dit evenement was vrij simpel. De hosts van het evenement maakten de teams en we moesten gewoon <br/>
+                                de andere teams verslaan. Het evenement was behoorlijk intens en we moesten voorzichtig zijn<br/>
                                 als we echt wilden winnen.<br/>
                                 <br/>
                                 Ons team bereikte de halve finale en verloor toen.<br/>
@@ -382,7 +440,7 @@ function ActivityContent($language, $pagenumber) {
                     echo("
                         <div class='activity-content center'>
                             <p>
-                                De tweede dag van de week en de derde activiteit/workshop van de week was de Tame your brain workshop.<br/>
+                                De tweede dag van de week en de derde activiteit/workshop van de week was de Tem je brein workshop.<br/>
                                 <br/>
                                 Deze workshop was erg interessant. We moesten leren hoe we je hersenen konden temmen en gebruiken.<br/>
                                 <br/>
@@ -403,17 +461,68 @@ function ActivityContent($language, $pagenumber) {
                     break;
                 case 4:
                     echo("
-                    
+                    <div class='activity-content center'>
+                        <p>
+                            Deze workshop ging over de zorg, privacy en medicatie van een persoon. Hoe blijf je gezond en hoe zorg je voor jezelf etc.<br/>
+                            <br/>
+                            Veel mensen zijn zich bewust van het willen/hebben van een goede gezondheid, maar velen weten niet wat er achter de schermen gebeurt als het gaat om hun eigen gezondheid of die van hun dierbaren die ook met hen in deze wereld leven.<br/>
+                            <br/>
+                            Deze workshop geeft informatie over verschillende aspecten op het gebied van persoonlijke hygiëne, diëtetiek, preventieve geneeskunde inclusief vaccinaties etc.<br/>
+                            <br/>
+                            De workshop was bedoeld om kennis bij te brengen over hoe je jezelf gezond kunt houden en hoe je voor je privacy kunt zorgen tijdens het gebruik van medicijnen.<br/>
+                            De inhoud was verdeeld in drie delen, namelijk: het eerste deel ging over hoe je gezond kunt blijven, het tweede deel ging over hoe je voor jezelf kunt zorgen en het derde deel ging over tips om privé te blijven terwijl je medicijnen gebruikt.<br/>
+                            <br/>
+                            Het eerste deel van de workshop ging over gezond blijven. Het behandelde onderwerpen als voeding, lichamelijke activiteit en slaap.<br/>
+                            <br/>
+                            Elk van de besproken onderwerpen werd in detail uitgelegd en er werd duidelijk gemaakt dat gezond zijn er niet alleen goed uitziet, maar ook dat je je goed voelt. Er werd ook duidelijk gemaakt dat door het opvolgen van de tips die in deze sectie worden gegeven, men niet alleen gezond kan blijven, maar ook zijn leven aanzienlijk kan verlengen.<br/>
+                            <br/>
+                            Het tweede deel van de workshop ging over voor jezelf zorgen. Het besprak onderwerpen als omgaan met stress, omgaan met vermoeidheid en emotioneel gezond blijven.<br/>
+                            <br/>
+                            Nogmaals, elk van de besproken onderwerpen werd in detail uitgelegd en er werd duidelijk gemaakt dat door het volgen van de tips in deze sectie, men niet alleen gezond kan blijven, maar ook zijn werkdruk op een betere manier kan beheren.<br/>
+                            Het derde en laatste deel van de workshop ging over tips om privé te blijven tijdens het innemen van medicijnen.<br/>
+                            <br/>
+                            Het behandelde onderwerpen als weten wanneer je hulp moet zoeken en wanneer je anoniem moet blijven.<br/>
+                            Elk van de besproken onderwerpen werd in detail uitgelegd en het werd duidelijk gemaakt dat door het volgen van de tips in deze sectie, men privé kan blijven tijdens het nemen van medicatie en bovendien een geweldige ervaring kan hebben tijdens het innemen van de medicijnen.<br/>
+                            <br/>
+                            De workshop was zeer informatief en leverde veel waardevolle informatie op over hoe je gezond kunt blijven en voor jezelf kunt zorgen. Door de tips in deze sectie op te volgen, kan men niet alleen gezond blijven, maar ook een geweldige ervaring hebben tijdens het innemen van medicijnen.<br/>
+                        </p>
+                    </div>
                     ");
                     break;
                 case 5:
                     echo("
-                    
+                    <div class='activity-content center'>
+                        <p>
+                            De volgende en tevens een na laatste workshop ging over Anticonceptie.<br/>
+                            <br/>
+                            In deze workshop werd er vooral uitgelegd wat voor soorten anti conceptie methoden er bestaan<br/>
+                            zoals: De anticonceptiepil, De anticonceptiepleister, De anticonceptiering, De prikpil en nog veel meer verschillende.<br/>
+                            <br/>
+                            Er zijn ook een paar andere methoden, zoals het Norplant-implantaat, condooms en vele andere methoden die worden gebruikt om zwangerschap te voorkomen, maar die op
+                            zichzelf geen anticonceptiemethoden zijn<br/>
+                            Er was 1 spreker bij deze workshop, dit was als het goed is een leraar van onze school<br/>
+                            <br/>
+                            Het was echt interessant en leuk om zoveel over ze allemaal te leren, want het is altijd fijn om dit soort dingen te weten als je je zorgen moet maken over je eigen leven.<br/>
+                        </p>
+                    </div>
                     ");
                     break;
                 case 6:
                     echo("
-                    
+                        <div class='activity-content center'>
+                            <p>
+                                De laatste activiteit van deze week was een voetbal penalty tournooi.<br/>
+                                <br/>
+                                Dit was vooral gewoon gezellig aangezien we merendeels onze eigen klas hadden en we elkaar allemaal al konden<br/>
+                                Het enige wat ik oprecht heel jammer vondt is dat ik perongeluk Don (de gene in het doel) 2 of 3 keer had geraakt.<br/>
+                                <br/>
+                                Dit komt puur omdat ik gewoon echt slecht ben ik het schieten van de bal en totaal niet accuraat ben.<br/>
+                                <br/>
+                                Het was ook echt een leuk tournooi en hartstikke gezellig
+                            </p>
+                            <img src='../../../images/don-1.jpg' width='250px' alt='penalty' class='activity-image'/>
+                            <img src='../../../images/don-2.jpg' width='250px' alt='penalty' class='activity-image'/>
+                        </div>
                     ");
                     break;
             }
